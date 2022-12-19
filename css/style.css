@@ -187,3 +187,34 @@ section.about .container .row2 .right-column ul.list {
 section.about .container .row2 .right-column ul.list li {
   line-height: 1.5rem;
 }
+
+section.result {
+  padding: 4rem 0;
+}
+section.result .container .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+section.result .container .row > .left-column > .text {
+  margin-bottom: 1.5rem;
+}
+section.result .container .row > .left-column > .heading {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+section.result .container .row > .left-column > .row {
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+section.result .container .row > .left-column > .row > .column {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+section.result .container .row > .left-column > .row > .column .info .heading {
+  font-size: 2rem;
+}
