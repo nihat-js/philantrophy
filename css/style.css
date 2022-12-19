@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --color-black-1: #090909;
+  --color-orange-1: #ff9c08;
+  --color-white-1: #f0ece8;
+  --color-gray-1: #6e6e6e;
+  --color-white-2: #fef9f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.1rem 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 3.75rem;
+  line-height: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--color-gray-1);
+}
+
+.text-orange-1 {
+  color: var(--color-orange-1);
+}
+
+.btn-orange {
+  color: var(--color-black-1);
+  background-color: var(--color-orange-1);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-white {
+  color: var(--color-black-1);
+  background-color: #fff;
+  border: 1.5px solid var(--color-white-1);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav {
+  color: var(--color-black-1);
+}
+nav .container {
+  padding: 1rem 0;
+}
+nav .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+nav .container .row .left-column {
+  display: flex;
+  align-items: center;
+}
+nav .container .row .left-column .brand {
+  display: flex;
+  align-items: center;
+}
+nav .container .row .left-column .brand img {
+  width: 36px;
+  margin-right: 1rem;
+}
+nav .container .row .left-column .links {
+  display: flex;
+  margin-left: 1.25rem;
+}
+nav .container .row .left-column .links li {
+  padding: 0.75rem 1rem;
+}
+nav .container .row .left-column .links li a {
+  color: #090909;
+}
+nav .container .row .right-column {
+  display: flex;
+  align-items: center;
+}
+nav .container .row .right-column .bag {
+  margin-right: 1.5rem;
+  position: relative;
+}
+nav .container .row .right-column .bag img {
+  width: 24px;
+}
+nav .container .row .right-column .bag .badge {
+  top: 18px;
+  left: -12px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-orange-1);
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+nav .container .row .right-column .donate button {
+  color: var(--color-black-1);
+  background-color: var(--color-orange-1);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section.hero .container .row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 2rem;
+  align-items: center;
+}
+section.hero .container .row .left-column .subheading {
+  margin-bottom: 1.5rem;
+}
+section.hero .container .row .left-column .actions button {
+  margin-right: 1rem;
+}
+section.hero .container .row .right-column img {
+  width: 100%;
+}
+
+section.stat {
+  background-color: var(--color-white-2);
+  margin-top: -2rem;
+}
+section.stat .container {
+  padding: 5rem 0;
+}
+section.stat .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.about {
+  background-color: var(--color-white-2);
+  padding: 4rem 0;
+}
+section.about .container > .heading {
+  margin-bottom: 2rem;
+}
+section.about .container .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+section.about .container .row1 .left-column {
+  max-width: 40%;
+}
+section.about .container .row1 .left-column .heading {
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+section.about .container .row1 .right-column button {
+  margin-right: 0.75rem;
+}
+section.about .container .row2 {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+section.about .container .row2 figure {
+  margin-bottom: 1.5rem;
+}
+section.about .container .row2 .right-column ul.list {
+  margin-top: 1.5rem;
+}
+section.about .container .row2 .right-column ul.list li {
+  line-height: 1.5rem;
+}
