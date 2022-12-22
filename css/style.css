@@ -465,6 +465,12 @@ section.news .container .action button {
   margin-right: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  section.news .container .row {
+    grid-template-columns: 100%;
+    padding: 0 1.5rem;
+  }
+}
 footer {
   background: #fef9f2;
   padding: 5rem 0;
