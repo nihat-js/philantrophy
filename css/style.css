@@ -440,3 +440,79 @@ section.news .container .row .card .body .heading {
 section.news .container .action button {
   margin-right: 1rem;
 }
+
+footer {
+  background: #fef9f2;
+  padding: 5rem 0;
+}
+footer .container .row1 {
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 3fr;
+  gap: 2.5rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #f0ece8;
+}
+footer .container .row1 a {
+  font-size: 1.05rem;
+  color: #3f3f3f;
+}
+footer .container .row1 p {
+  font-size: 1.05rem;
+  line-height: 1.1rem;
+  color: #3f3f3f;
+}
+footer .container .row1 .company .brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+footer .container .row1 .company .brand img {
+  margin-right: 0.75rem;
+}
+footer .container .row1 .company .brand .text {
+  font-size: 1.125rem;
+}
+footer .container .row1 .menu .heading {
+  margin-bottom: 2rem;
+}
+footer .container .row1 .menu ul li {
+  margin-bottom: 1rem;
+}
+footer .container .row1 .utility .heading {
+  margin-bottom: 2rem;
+}
+footer .container .row1 .utility ul li {
+  margin-bottom: 1rem;
+}
+footer .container .row1 .box {
+  background-color: var(--color-orange-1);
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+}
+footer .container .row1 .box .heading {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+footer .container .row1 .box .action {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+footer .container .row2 {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .row2 .copyright {
+  font-size: 1.125rem;
+}
+footer .container .row2 .squares {
+  display: flex;
+}
+footer .container .row2 .squares .square {
+  width: 36px;
+  height: 36px;
+  background-color: #090909;
+  border-radius: 5px;
+  margin-right: 0.75rem;
+}
