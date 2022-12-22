@@ -13,6 +13,7 @@ html {
 :root {
   --color-black-1: #090909;
   --color-orange-1: #ff9c08;
+  --color-orange-2: #ffd4a4;
   --color-white-1: #f0ece8;
   --color-gray-1: #6e6e6e;
   --color-white-2: #fef9f2;
@@ -50,6 +51,7 @@ p {
   padding: 1rem 1.5rem;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
 .btn-white {
@@ -59,6 +61,17 @@ p {
   padding: 1rem 1.5rem;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.btn-black {
+  color: var(--color-white-1);
+  background-color: var(--color-black-1);
+  border: 1.5px solid var(--color-white-1-);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 nav {
@@ -217,4 +230,47 @@ section.result .container .row > .left-column > .row > .column {
 }
 section.result .container .row > .left-column > .row > .column .info .heading {
   font-size: 2rem;
+}
+section.video {
+  background-color: var(--color-orange-2);
+  color: var(--color-black-1);
+  height: 800px;
+  display: grid;
+  place-items: center;
+}
+section.video .container-fluid {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.video .container-fluid .subheading {
+  margin-bottom: 1rem;
+}
+section.video .container-fluid .heading {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-size: 3.5rem;
+}
+section.video .container-fluid .action button {
+  margin-right: 0.5rem;
+}
+
+section.goal .container figure {
+  transform: translate(0, -50%);
+}
+section.goal .container .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 4rem;
+  border-bottom: 3px solid var(--color-white-1);
+}
+section.goal .container .row .column .heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+section.goal .container .row .column .text {
+  color: var(--color-gray-1);
+  font-size: 1.125rem;
 }
